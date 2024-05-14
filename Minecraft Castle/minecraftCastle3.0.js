@@ -8,7 +8,7 @@ player.onChat("castle", function () {
     Throne()
     roof(31, 13)
 })
-function Throne() {
+function Throne () {
     builder.teleportTo(pos(36, 2, 6))
     builder.place(QUARTZ_SLAB)
     builder.move(FORWARD, 1)
@@ -50,41 +50,41 @@ function Throne() {
     builder.move(FORWARD, 1)
     builder.place(OCHRE_FROGLIGHT)
 }
-function mansion() {
+function mansion () {
     blocks.fill(
-        CHISELED_QUARTZ_BLOCK,
-        pos(25, -1, 20),
-        pos(38, 10, -10),
-        FillOperation.Hollow
+    CHISELED_QUARTZ_BLOCK,
+    pos(25, -1, 20),
+    pos(38, 10, -10),
+    FillOperation.Hollow
     )
     blocks.fill(
-        PILLAR_QUARTZ_BLOCK,
-        pos(25, -1, 19),
-        pos(38, 9, -9),
-        FillOperation.Hollow
+    PILLAR_QUARTZ_BLOCK,
+    pos(25, -1, 19),
+    pos(38, 9, -9),
+    FillOperation.Hollow
     )
     blocks.fill(
-        CHISELED_QUARTZ_BLOCK,
-        pos(19, -1, 13),
-        pos(24, 3, -3),
-        FillOperation.Hollow
+    CHISELED_QUARTZ_BLOCK,
+    pos(19, -1, 13),
+    pos(24, 3, -3),
+    FillOperation.Hollow
     )
     blocks.place(RED_WOOL, pos(19, -1, 5))
     blocks.place(DARK_OAK_DOOR, pos(19, 0, 5))
     blocks.fill(
-        AIR,
-        pos(24, 0, 4),
-        pos(25, 2, 6),
-        FillOperation.Hollow
+    AIR,
+    pos(24, 0, 4),
+    pos(25, 2, 6),
+    FillOperation.Hollow
     )
     blocks.fill(
-        RED_CARPET,
-        pos(20, 0, 4),
-        pos(33, 0, 6),
-        FillOperation.Replace
+    RED_CARPET,
+    pos(20, 0, 4),
+    pos(33, 0, 6),
+    FillOperation.Replace
     )
 }
-function Lamp(num: number, num2: number, num3: number) {
+function Lamp (num: number, num2: number, num3: number) {
     builder.teleportTo(pos(num, num2, num3))
     builder.place(CHAIN)
     builder.move(DOWN, 1)
@@ -115,9 +115,9 @@ function Lamp(num: number, num2: number, num3: number) {
     builder.place(END_ROD)
 }
 player.onChat("Throne", function () {
-
+	
 })
-function barrier() {
+function barrier () {
     builder.teleportTo(pos(19, 4, 13))
     for (let index = 0; index < 9; index++) {
         builder.place(CHISELED_QUARTZ_BLOCK)
@@ -134,7 +134,7 @@ function barrier() {
         builder.move(RIGHT, 2)
     }
 }
-function roof(num: number, num2: number) {
+function roof (num: number, num2: number) {
     agent.teleport(pos(24, 11, 20), EAST)
     while (num2 > 0) {
         agent.setItem(BRICK_STAIRS, 64, 1)
