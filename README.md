@@ -12,6 +12,6 @@ Kod: (ScriptingLanguagesInVideoGames/TicTacToe/)
 
 **JS: Zamek w Minecraft** 
 
-:white_check_mark: 3.0 wymaganie 1 [Link](https://github.com/KacperKornas/ScriptingLanguagesInVideoGames/commit/89fa3b51f113e60f255a59efb2c3476c063a03a3)
+:white_check_mark: 3.0 wymaganie 1 [Link](https://github.com/KacperKornas/ScriptingLanguagesInVideoGames/commit/77533efc74dcb88588bdb304e08e5c07925997bf)
 
 Kod: (ScriptingLanguagesInVideoGames/Minecraft Castle/)
