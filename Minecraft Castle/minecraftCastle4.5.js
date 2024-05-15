@@ -122,8 +122,8 @@ function wall () {
     player.teleport(pos(10, 0, 0))
     blocks.fill(
     AIR,
-    pos(0, 0, 2),
-    pos(-10, 5, 8),
+    pos(0, 0, 3),
+    pos(-10, 5, 7),
     FillOperation.Hollow
     )
 }
