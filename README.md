@@ -16,4 +16,6 @@ Kod: (ScriptingLanguagesInVideoGames/TicTacToe/)
 
 :white_check_mark: 3.5 wymaganie 2 [Link](https://github.com/KacperKornas/ScriptingLanguagesInVideoGames/commit/5ee4fccd62b8a9dd3874768aab4acade506de06b)
 
+:white_check_mark: 3.5 wymaganie 2 [Link](https://github.com/KacperKornas/ScriptingLanguagesInVideoGames/commit/4ca4a442b0498007c09f9ae1eded20f6feb08e6a)
+
 Kod: (ScriptingLanguagesInVideoGames/Minecraft Castle/)
