@@ -120,6 +120,12 @@ function wall () {
     ShapeOperation.Replace
     )
     player.teleport(pos(10, 0, 0))
+    blocks.fill(
+    AIR,
+    pos(0, 0, 2),
+    pos(-10, 5, 8),
+    FillOperation.Hollow
+    )
 }
 player.onChat("castle", function () {
     player.say("UWAGA!!! NIE RUSZAJ SIĘ DOPÓKI NIE DAM CI ZNAĆ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
