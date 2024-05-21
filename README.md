@@ -30,7 +30,7 @@ Kod: (ScriptingLanguagesInVideoGames/Minecraft Castle/)
 
 :white_check_mark: 3.0 - Postawowa wersja dekstopowa z obsługą na klawiaturze - minimum 4 rodzaje klocków [Link](https://github.com/KacperKornas/ScriptingLanguagesInVideoGames/commit/f344373fbbd6923bbe5f67169875dc5383daf2d9)
 
-Kod: (ScriptingLanguagesInVideoGames/Minecraft Castle/)
+Kod: (ScriptingLanguagesInVideoGames/Tetris/)
 
 
 
