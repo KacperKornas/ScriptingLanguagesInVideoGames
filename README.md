@@ -34,4 +34,12 @@ Kod: (ScriptingLanguagesInVideoGames/Tetris/)
 
 
 
+**Mario w Ruby2d** 
+
+:white_check_mark: 3.0 - Należy stworzyć jeden poziom z przeszkodami oraz dziurami w które można wpaść i zginąć [Link](https://github.com/KacperKornas/ScriptingLanguagesInVideoGames/commit/039c927794f0326af555c586d79d2f2ffefdb196)
+
+Kod: (ScriptingLanguagesInVideoGames/Mario/)
+
+
+
 
