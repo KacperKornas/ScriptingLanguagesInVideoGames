@@ -9,6 +9,13 @@
 Kod: (ScriptingLanguagesInVideoGames/TicTacToe/)
 
 
+**Python Czatbot eSport** 
+
+:white_check_mark: 3.0 - Ma zaimplementowane minimum 3 ścieżki (stories) [Link](https://github.com/KacperKornas/ScriptingLanguagesInVideoGames/commit/d1dd5de77171d595497c292ee257b6ba46bb0db3)
+
+Kod: (ScriptingLanguagesInVideoGames/Chatbot/)
+
+
 
 **JS: Zamek w Minecraft** 
 
