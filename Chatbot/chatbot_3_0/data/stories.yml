@@ -1,0 +1,72 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: competition path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: competition
+  - action: utter_like_competition
+  - intent: competition
+  - action: utter_favourite
+  - intent: mood_great
+  - action: utter_something_else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: child sport path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: child
+  - action: utter_deny
+  - intent: child
+  - action: utter_imagination_child
+  - intent: child
+  - action: utter_healthy
+  - intent: affirm
+  - action: utter_something_else
+  - intent: deny
+  - action: utter_goodbye
+
+- story: esport path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: esport
+  - action: utter_esport
+  - intent: deny
+  - action: utter_agree
+  - action: utter_favourite
+  - intent: mood_great
+  - action: utter_have_to_go
+  - intent: goodbye
+  - action: utter_goodbye
